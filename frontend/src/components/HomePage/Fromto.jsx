@@ -9,6 +9,7 @@ export const Fromto = ({handleChange}) => {
         "https://raw.githubusercontent.com/ashhadulislam/JSON-Airports-India/master/airports.json"
       );
       const ans = await data.json();
+      console.log(ans)
       setText(ans.airports);
     };
     promise();
@@ -17,7 +18,7 @@ export const Fromto = ({handleChange}) => {
     <Fromtocss>
       <div className="fromtodiv">
         <div>
-          <h3>FROM</h3>
+          <h3>LOCATION</h3>
           <select onChange={handleChange} name="from" id="">
             {text.map((e) => (
               <option value={e.IATA_code} key={e.IATA_code}>
@@ -26,7 +27,7 @@ export const Fromto = ({handleChange}) => {
             ))}
           </select>
         </div>
-        <div>
+        {/* <div>
           <h3>TO</h3>
           <select onChange={handleChange} name="to" id="">
             {text.map((e) => (
@@ -35,7 +36,7 @@ export const Fromto = ({handleChange}) => {
               </option>
             ))}
           </select>
-        </div>
+        </div> */}
       </div>
       <div className="fromtodiv2">
         <div>

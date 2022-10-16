@@ -8,9 +8,10 @@ border-radius: 8px;
 display: grid;
 grid-template-columns: 1fr 1fr;
 .fromtodiv {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    height: 87%;
+    display:flex;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
 }
 h3{
     position : relative;
@@ -21,7 +22,9 @@ h3{
 }
 .fromtodiv div{
     border-right: 0.01em solid #d4d0d0;
+    padding-right: 80px;
     height:82%;
+    text-align: center;
 }
 .fromtodiv select {
     padding:4%;

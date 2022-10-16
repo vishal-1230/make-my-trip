@@ -79,10 +79,10 @@ export const Main = () => {
           <div className="checkboxdiv">
             <div>
               {" "}
-              <input type="radio" />
-              <label htmlFor="">Single Day Shoot</label>
-              <input type="radio" />
-              <label htmlFor="">Multiple Days Shoot</label>
+              <input type="radio" name='shooting-days' />
+              <label htmlFor="a">Single Day Shoot</label>
+              <input type="radio" name='shooting-days' />
+              <label htmlFor="a">Multiple Days Shoot</label>
               
             </div>
           </div>
