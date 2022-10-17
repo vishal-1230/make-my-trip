@@ -15,8 +15,8 @@ const displayRazorpay = async () => {
     key: "rzp_live_X1DoMMlNfQUgvm",
     currency: data.currency,
     amount: data.amount,
-    name: "makemytrip",
-    description: "Pay to makemytrip",
+    name: "CatchMySnap",
+    description: "Pay to CatchMySnap",
     image: "https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/logo@2x.png",
     order_id: data.id,
     handler: function (response) {

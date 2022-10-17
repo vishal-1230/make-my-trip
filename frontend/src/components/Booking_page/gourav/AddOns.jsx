@@ -68,7 +68,7 @@ export const AddOns = () => {
         <p>
           By clicking on the continue button below to proceed with the booking.
           I confirm that I have read and I accept the Fare Rules, the Privacy
-          Policy, the User Agrreement and Terms of Services of MakeMyTrip.
+          Policy, the User Agrreement and Terms of Services of CatchMySnap.
         </p>
         <PaymentButton/>
       </div>

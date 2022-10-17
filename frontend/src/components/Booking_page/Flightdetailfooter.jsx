@@ -57,7 +57,7 @@ const handle = ()=>{
                        <h5>A Note on Guidelines</h5>
                    </div>
                    <ul>
-                       <li>Disclaimer: The information provided above is only for ready reference and convenience of customers, and may not be exhaustive. We strongly recommend that you check the full text of the guidelines issued by the State Governments before travelling. MakeMyTrip accepts no liability in this regard.</li>
+                       <li>Disclaimer: The information provided above is only for ready reference and convenience of customers, and may not be exhaustive. We strongly recommend that you check the full text of the guidelines issued by the State Governments before travelling. CatchMySnap accepts no liability in this regard.</li>
                    </ul> 
                </div>               
            </div>

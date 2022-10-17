@@ -4,8 +4,9 @@ import styled from 'styled-components'
 
 // 
 export const Navbar = styled.div`
-height: 500px;
+height: 600px;
 background: linear-gradient(to top, #00F260 0%, #0575E6 100%);
+background-image: url('https://www.parents.com/thmb/-WzXAufki45bZr9KV9Ptx5r8mZo=/1000x667/filters:fill(auto,1)/shutterstock_286469927-8b82b18bca12479ba7776af8773fed8e.jpg');
 .laltain{
     position: absolute;
     left: 0px;

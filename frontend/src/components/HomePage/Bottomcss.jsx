@@ -69,10 +69,11 @@ export const Bottomcss = styled.div`
         align-items: center;
       }
       .copy{
+        height: 20px;
         line-height: 5px;
         font-size: 18px;
         align-items: center;
-        color: white;
+        color: grey;
       }
     }
   }

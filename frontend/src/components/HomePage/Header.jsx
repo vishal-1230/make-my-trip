@@ -10,6 +10,7 @@ import DownhillSkiingIcon from "@mui/icons-material/DownhillSkiing";
 import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
 import styled from "styled-components";
 import { useState } from "react";
+import bg from './logo-catchmysnap.jpeg';
 import { Link } from "react-router-dom";
 import { Login } from "../login/Login";
 const Icondivcss = styled.div`
@@ -56,13 +57,19 @@ const Icondivcss = styled.div`
     top: 10px;
     left: 0px;
     img {
-      width: 50%;
     }
   }
 .login{
   position: relative;
   top: 10px;
   left: 150px;
+}
+.mmtlogo{
+  margin: 0;
+  // margin-top: -28px;  
+  margin-left: 10px;
+  border-radius: 160px;
+  width: 110px;
 }
 `;
 
@@ -85,7 +92,7 @@ export const Header = () => {
       <div className={nav ? "icondiv" : "disnone"}>
         <div className="imgdiv">
           <Link to="/">
-            <img src={"https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/logo@2x.png"} alt="Logo" />
+            <img src={bg} className='mmtlogo' alt="Logo" />
           </Link>
         </div>
         <div className="icons">
@@ -93,19 +100,19 @@ export const Header = () => {
             <span>
               <FlightIcon style={{ fontSize: 30, padding: 4 }}></FlightIcon>
             </span>
-            <p>Flights</p>
+            <p>Wedding Photoshoots</p>
           </div>
           <div>
             <span>
               <HotelIcon style={{ fontSize: 30, padding: 4 }}></HotelIcon>
             </span>
-            <p>Hotels</p>
+            <p>Instagram Shoots</p>
           </div>
           <div>
             <span>
               <HomeWorkIcon style={{ fontSize: 30, padding: 4 }}></HomeWorkIcon>
             </span>
-            <p>Homestays</p>
+            <p>Occassional Shoots</p>
           </div>
           <div>
             <span>
@@ -113,13 +120,13 @@ export const Header = () => {
                 style={{ fontSize: 30, padding: 4 }}
               ></HolidayVillageIcon>
             </span>
-            <p>Hoiday packages</p>
+            <p>Corporate Shoots</p>
           </div>
           <div>
             <span>
               <TrainIcon style={{ fontSize: 30, padding: 4 }}></TrainIcon>
             </span>
-            <p>Trains</p>
+            <p>Hotel and Resort Shoots</p>
           </div>
         </div>
         <div className="login">

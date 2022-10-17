@@ -55,19 +55,19 @@ export const SmallBottom = () => {
           src="https://promos.makemytrip.com/Growth/Images/B2C/x/dt_tert_ti2.png"
           alt=""
         />
-        <p>Trip ideas</p>
+        <p>Photography ideas</p>
       </div>
       <div>
           <img src="https://promos.makemytrip.com/Growth/Images/B2C/x/dt_tert_tm1.png" alt="" />
-          <p>Trip Money</p>
+          <p>Aesthetic Sceneries</p>
       </div>
       <div>
-          <img src="https://promos.makemytrip.com/Growth/Images/B2C/2x/dt_tert_flights.png" alt="" />
-          <p>Explore International Flights</p>
+          <img src="https://images.pling.com/img/00/00/33/91/33/1226029/1d7eb759ffa3f19c03dc2cbfe9653d85676f.jpg" alt="" />
+          <p>Explore International Destinations for Shoots</p>
       </div>
       <div>
           <img src="https://promos.makemytrip.com/Growth/Images/B2C/x/dt_tert_ng1.png" alt="" />
-          <p>Nearby Getaways</p>
+          <p>Nearby Camera Agencies</p>
       </div>
       <div>
           <img src="https://promos.makemytrip.com/Growth/Images/B2C/x/dt_tert_gc1.png" alt="" />

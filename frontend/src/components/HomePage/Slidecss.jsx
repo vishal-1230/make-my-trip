@@ -181,4 +181,9 @@ export const TripMoney = styled.div`
       text-transform: uppercase;
     }
   }
+
+  .img123{
+    width:10px;
+    height: 10px
+  }
 `;

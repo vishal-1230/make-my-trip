@@ -13,7 +13,7 @@ import { SmallBottom } from "./SmallBottom";
 import { useState } from "react";
 import { FareTypes } from "./FareTypes";
 import { Login } from "../login/Login";
-import bg from './bg.png'
+import bg from './logo-catchmysnap.jpeg'
 export const Main = () => {
   const [data, setData] = useState({
     from: "",
@@ -30,6 +30,7 @@ export const Main = () => {
     const popup = document.getElementById("popup");
     popup.classList.toggle("active");
   };
+  const [shootingDays, setshootingDays] = useState('single')
   return (
     <div>
       <Header></Header>
@@ -42,10 +43,11 @@ export const Main = () => {
           />
           <Link to="/">
             <img
+            style={{borderRadius:'160px'}}
               className="mmtlogo"
-              src={
-                "https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/mmtLogoWhite.png"
-              }
+              src=
+                {bg}
+              
               alt="Logo"
             />
           </Link>
@@ -57,7 +59,7 @@ export const Main = () => {
               <BusinessIcon></BusinessIcon>
             </div>
             <div>
-              <h4>My Trips</h4>
+              <h4>My Shoots</h4>
               <p>Manage your Bookings</p>
             </div>
           </Smallbutton>
@@ -70,7 +72,7 @@ export const Main = () => {
             </div>
             <div>
               <h4>Introducing myBiz</h4>
-              <p>MakeMyTrip for Buisness</p>
+              <p>CatchMySnap for Buisness</p>
             </div>
           </Smallbutton>
         </div>
@@ -79,14 +81,14 @@ export const Main = () => {
           <div className="checkboxdiv">
             <div>
               {" "}
-              <input type="radio" name='shooting-days' />
+              <input type="radio" name='shooting-days' onClick={()=>{setshootingDays('single')}} />
               <label htmlFor="a">Single Day Shoot</label>
-              <input type="radio" name='shooting-days' />
+              <input type="radio" name='shooting-days' onClick={()=>{setshootingDays('multiple')}} />
               <label htmlFor="a">Multiple Days Shoot</label>
               
             </div>
           </div>
-          <Fromto handleChange={handleData} />
+          <Fromto shootingDays={shootingDays} handleChange={handleData} />
         </Bookingcss>
         <div className="button">
           <button onClick={addLocal}>
@@ -103,10 +105,10 @@ export const Main = () => {
           <div className="supreoffers">
             <h1>Super Offers</h1>
             <div>
-              <h3>ALL OFFERS</h3>
-              <h3>BANK OFFERS</h3>
-              <h3>DOMESTIC FLIGHTS</h3>
-              <h3>MORE</h3>
+              <h3>ALL OFFERS</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <h3>BANK OFFERS</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <h3>LOCATION OFFERS</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <h3>MORE</h3>&nbsp;
             </div>
           </div>
           <BigSlidesExample className="bigslideex"></BigSlidesExample>
@@ -119,33 +121,33 @@ export const Main = () => {
                 alt=""
               />
               <div>
-                <div className="spa1n"></div>
+                {/* <div className="spa1n"></div> */}
                 <h3>Personal loan</h3>
-                <p>Get upto ₹1 lakh for booking flights, hotels & more.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur.</p>
               </div>
-              <div className="span2"></div>
+              {/* <div className="span2"></div> */}
             </div>
             <div id="div2" style={{ borderColor: "#dde47d" }}>
               <img
-                src="https://www.tripmoney.com/ext/static/credit-card/cc@3x.png"
+                src="https://www.rswebsols.com/wp-content/uploads/2020/06/canon-point-and-shoot-zoom-digital-camera-920x518.jpg"
                 alt=""
               />
               <div>
-                <div className="spa1n"></div>
-                <h3>Credit cards</h3>
-                <p>Get instant approval & unmatched privileges.</p>
+                {/* <div className="spa1n"></div> */}
+                <h3>Best Photograpers</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed.</p>
               </div>
               <div className="span2"></div>
             </div>
             <div id="div2" style={{ borderColor: "#7dbee4" }}>
               <img
-                src="https://www.tripmoney.com/ext/static/PL/pl.png"
+                src="https://static.toiimg.com/photo/msid-87107688,width-96,height-65.cms"
                 alt=""
               />
               <div>
-                <div className="spa1n"></div>
-                <h3>Travel loan</h3>
-                <p>Get approval for ₹30,00,000 at low interest rates.</p>
+                {/* <div className="spa1n"></div> */}
+                <h3>Shooting Locations</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem!</p>
               </div>
               <div className="span2"></div>
             </div>

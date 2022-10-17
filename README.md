@@ -111,7 +111,7 @@ To run this project, you will need to add the following environment variables to
 
 ## Acknowledgements
 
- - [makemytrip.com](https://www.makemytrip.com/)
+ - [CatchMySnap.com](https://www.CatchMySnap.com/)
  - [Masai School](https://masaischool.com/)
   
 

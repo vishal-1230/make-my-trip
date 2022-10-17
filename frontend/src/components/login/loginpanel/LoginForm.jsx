@@ -186,7 +186,7 @@ export const LoginForm = (props) => {
           </div>
         </div>
         <p className="tc">
-          By proceeding, you agree to MakeMyTrip's{" "}
+          By proceeding, you agree to CatchMySnap's{" "}
           <a href="#">Privacy Policy</a>, <a href="#">User Agreement</a> and{" "}
           <a href="#">T&Cs</a>
         </p>
